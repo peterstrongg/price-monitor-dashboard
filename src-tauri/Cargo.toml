@@ -23,4 +23,4 @@ tauri = { version = "1.2", features = ["shell-open"] }
 default = ["custom-protocol"]
 # this feature is used used for production builds where `devPath` points to the filesystem
 # DO NOT remove this
-custom-protocol = ["tauri/custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"] 
