@@ -23,6 +23,9 @@
         margin-left:auto;
         margin-right:auto;
         height: 500px;
+        -moz-tab-size : 8;
+        -o-tab-size : 8;
+        tab-size : 8;
     }
     textarea {
         resize: none;
