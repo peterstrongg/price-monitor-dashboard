@@ -1,1 +1,1 @@
-<h1>Synapse</h1>
+<h1 class="underline">Synapse</h1>
