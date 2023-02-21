@@ -12,7 +12,8 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@tauri-apps/api": "^1.2.0"
+    "@tauri-apps/api": "^1.2.0",
+    "jspdf": "^2.5.1"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^1.0.6",

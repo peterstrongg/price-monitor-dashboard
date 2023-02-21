@@ -1,7 +1,7 @@
 <script>
-    import TextArea from "../lib/TextArea.svelte";
+    import TextArea from "../lib/NotePage.svelte";
 </script>
 
-<h1 class="underline">Synapse</h1>
+<h1>Synapse</h1>
 <TextArea />
 
