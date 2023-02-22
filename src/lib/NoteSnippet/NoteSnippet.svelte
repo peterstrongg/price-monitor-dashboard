@@ -1,5 +1,5 @@
 <script lang="ts">
-    import handleFormatting from "./NotePage";
+    import handleFormatting from "./NoteSnippet";
     import autosize from "svelte-autosize";
     
     const handleKeyDown = (event: any) => {

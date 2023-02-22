@@ -1,9 +1,11 @@
 <script lang="ts">
     import NoteSnippet from "../NoteSnippet/NoteSnippet.svelte";
+    import CodeSnippet from "../CodeSnippet/CodeSnippet.svelte";
 </script>
 
 <div class="notePage">
     <NoteSnippet />
+    <CodeSnippet />
 </div>
 
 <style>
