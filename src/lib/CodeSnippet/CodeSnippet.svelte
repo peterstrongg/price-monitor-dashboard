@@ -1,12 +1,12 @@
 
-<script lang="js">
+<script lang="ts">
     import hljs from "highlight.js"
-    import javascript from 'highlight.js/lib/languages/javascript';
-    import 'highlight.js/styles/github.css';
+    import cpp from 'highlight.js/lib/languages/cpp';
+    import 'highlight.js/styles/github-dark-dimmed.css';
 
-    hljs.registerLanguage("javascript", javascript)
+    hljs.registerLanguage("cpp", cpp);
 
-    const my_code = hljs.highlight("const x = 5;", {language: "javascript"}).value;
+    const my_code: any = hljs.highlight("#include <iostream>", {language: "cpp"}).value;
 </script>
 <div id="code-snippet">
     {@html my_code}

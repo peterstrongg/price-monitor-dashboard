@@ -9,8 +9,7 @@
     <textarea 
         id="page"
         rows="4" 
-        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 border border-gray-3
-             dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" 
+        class="block p-2.5 w-full text-sm" 
         placeholder="Start Typing Here"
         on:keydown = {handleKeyDown}
     />
@@ -23,15 +22,19 @@
         max-width: 95%;
         margin-left:auto;
         margin-right:auto;
-        height: 500px;
+        height: 100vh;
+        background: #3c3c3c;
+        border-radius: 5px;
         -moz-tab-size : 8;
         -o-tab-size : 8;
         tab-size : 8;
     }
     textarea {
-        resize: none;
-        width: 100%;
-        height: 100%;
+        border-radius: 5px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        background: #363636;
     }
     textarea:focus {
         outline: none;
