@@ -16,6 +16,7 @@
     />
 </div>
 
+
 <style>
     .notePage {
         width: 80rem;
