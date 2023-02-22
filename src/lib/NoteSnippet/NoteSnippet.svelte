@@ -1,5 +1,6 @@
 <script lang="ts">
     import handleFormatting from "./NotePage";
+    import autosize from "svelte-autosize"
     const handleKeyDown = (event: any) => {
         handleFormatting(event.key);
     }
@@ -11,6 +12,7 @@
     class="block p-2.5 w-full text-sm" 
     placeholder="Start Typing Here"
     on:keydown = {handleKeyDown}
+    use:autosize
 />
 
 <style>
