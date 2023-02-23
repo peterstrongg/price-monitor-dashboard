@@ -3,7 +3,7 @@
     import autosize from "svelte-autosize";
     
     const handleKeyDown = (event: any) => {
-        handleFormatting(event.key);
+        handleFormatting(event);
     }
 </script>
 
