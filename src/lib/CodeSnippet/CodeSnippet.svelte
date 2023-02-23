@@ -6,7 +6,7 @@
 
     hljs.registerLanguage("cpp", cpp);
 
-    const my_code: any = hljs.highlight("for (int i = 0; i < 5; i++)", {language: "cpp"}).value;
+    const my_code: any = hljs.highlight("for (int i = 0; i < 5; i++);", {language: "cpp"}).value;
 </script>
 <div id="code-snippet">
     <code>{@html my_code}</code>

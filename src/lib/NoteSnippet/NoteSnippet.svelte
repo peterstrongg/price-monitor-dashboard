@@ -23,7 +23,7 @@
         width: 95%;
         margin-left: auto;
         margin-right: auto; 
-        margin-top: 20px;
+        margin-top: 25px;
         margin-bottom: 20px;
         background: #363636;
     }

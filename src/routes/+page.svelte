@@ -3,5 +3,11 @@
 </script>
 
 <h1>Synapse</h1>
-<SynapsePage />
+<div class="notes">
+    <SynapsePage />
+</div>
+
+<style>
+
+</style>
 
