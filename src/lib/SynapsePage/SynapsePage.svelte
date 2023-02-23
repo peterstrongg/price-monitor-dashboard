@@ -4,8 +4,8 @@
 </script>
 
 <div class="notePage">
-    <NoteSnippet />
-    <NoteSnippet />
+    <NoteSnippet block_id={0} />
+    <NoteSnippet block_id={1}/>
     <CodeSnippet />
 </div>
 

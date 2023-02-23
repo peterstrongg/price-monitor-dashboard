@@ -1,11 +1,11 @@
-const handleFormatting = (event: any) => {
+const handleFormatting = (event: any, block_id: number) => {
     const page = document.querySelectorAll('textarea');
     if(event.key == "Tab") {
         event.preventDefault();
-        page[1]?.setRangeText(
+        page[block_id]?.setRangeText(
             '\t',
-            page[1].selectionStart,
-            page[1].selectionEnd,
+            page[block_id].selectionStart,
+            page[block_id].selectionEnd,
             'end'
         );
     }

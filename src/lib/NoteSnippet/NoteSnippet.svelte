@@ -2,8 +2,10 @@
     import handleFormatting from "./NoteSnippet";
     import autosize from "svelte-autosize";
     
+    export let block_id: number;
+
     const handleKeyDown = (event: any) => {
-        handleFormatting(event);
+        handleFormatting(event, block_id);
     }
 </script>
 
