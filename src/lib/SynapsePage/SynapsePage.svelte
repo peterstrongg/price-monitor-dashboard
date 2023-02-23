@@ -21,8 +21,8 @@
         -o-tab-size : 8;
         tab-size : 8;
     }
-    
-    /* Prevents margin from being flush with edge of screen on smaller screen sizes*/
+
+    /* Prevents margin from being flush with edge of screen on smaller screen sizes */
     @media screen and (max-width: 950px) {
         .notePage {
             margin-left: 20px;
