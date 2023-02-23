@@ -13,7 +13,7 @@
     id="page"
     rows="4" 
     class="block p-2.5 w-full text-sm" 
-    placeholder="Start Typing Here"
+    placeholder="Type Notes Here..."
     on:keydown = {handleKeyDown}
     use:autosize
 />
