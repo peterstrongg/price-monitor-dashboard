@@ -5,6 +5,7 @@
 
 <div class="notePage">
     <NoteSnippet />
+    <NoteSnippet />
     <CodeSnippet />
 </div>
 
