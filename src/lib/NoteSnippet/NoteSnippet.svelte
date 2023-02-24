@@ -22,11 +22,11 @@
     textarea {
         display: inline-block;
         border-radius: 5px;
-        width: 95%;
+        width: 98%;
         margin-left: auto;
         margin-right: auto; 
-        margin-top: 25px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 0px;
         background: #363636;
     }
     textarea:focus {
