@@ -7,14 +7,17 @@
     hljs.registerLanguage("cpp", cpp);
 
     let files: any;
+    $: if(files) {
+        console.log(files[0].text())
+    }
 
     const my_code: any = hljs.highlight("for (int i = 0; i < 5; i++);", {language: "cpp"}).value;
 </script>
 <div class="add-snippet">
-    <input type="file" id="file-upload" style="display: none;" bind:files>
+    <input type="file" id="file-upload" style="display: none;" bind:value={files}>
     <label for="file-upload">Upload File</label>
 
-    {#if files}
+    <!-- {#if files}
     {#each Array.from(files) as file}
     {#await file.text() then text}
     {#each text.split('\n') as line }
@@ -22,7 +25,7 @@
     {/each}
     {/await}
     {/each}
-    {/if}
+    {/if} -->
 </div>
 
 <style>
