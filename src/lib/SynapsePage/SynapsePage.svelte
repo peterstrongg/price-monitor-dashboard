@@ -1,14 +1,14 @@
 <script lang="ts">
     import NoteSnippet from "../NoteSnippet/NoteSnippet.svelte";
     import CodeSnippet from "../CodeSnippet/CodeSnippet.svelte";
-    import AddSnippet from "../AddSnippet.svelte";
+    import AddSnippet from "../AddSnippet/AddSnippet.svelte";
 </script>
 
 <div class="notePage">
     <NoteSnippet block_id={0} />
     <NoteSnippet block_id={1}/>
+    <CodeSnippet />
     <AddSnippet />
-    <!-- <CodeSnippet /> -->
 </div>
 
 <style>
